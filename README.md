@@ -23,11 +23,11 @@ If you don't understand some of the codes inside, you can check out my blog colu
   ![image](https://github.com/229394/AndroidBasic/blob/master/screenshots/Dialog1.png)
   ![image](https://github.com/229394/AndroidBasic/blob/master/screenshots/Dialog1.png)
   
-  Toast && Progress Interface:
+  Toast && CustomDialog Interface:
   
   ![image](https://github.com/229394/AndroidBasic/blob/master/screenshots/Toast.png)
-  ![image](https://github.com/229394/AndroidBasic/blob/master/screenshots/Progress.png)
-  
-  CustomDialog Interface:
-  
   ![image](https://github.com/229394/AndroidBasic/blob/master/screenshots/CustomDialog.png)
+  
+  Progress Interface:
+  
+  ![image](https://github.com/229394/AndroidBasic/blob/master/screenshots/Progress.png)
