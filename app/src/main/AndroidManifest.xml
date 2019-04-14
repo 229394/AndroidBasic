@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.autumn">
+    <!-- 允许网络申请 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PopUpWindowActivity"/>
+        <activity android:name=".CustomDialogActivity" />
+        <activity android:name=".ProgressActivity" />
+        <activity android:name=".DialogActivity" />
+        <activity android:name=".ToastActivity" />
+        <activity android:name=".WebViewActivity" />
+        <activity android:name=".recyclerview.PuRecyclerViewActivity" />
+        <activity android:name=".recyclerview.GridRecyclerViewActivity" />
+        <activity android:name=".recyclerview.HorRecyclerViewActivity" />
+        <activity android:name=".recyclerview.LinearRecyclerViewActivity" />
+        <activity android:name=".recyclerview.RecyclerViewActivity" />
+        <activity android:name=".gridview.GridViewActivity" />
+        <activity android:name=".listview.ListViewActivity" />
+        <activity android:name=".ImageViewActivity" />
+        <activity android:name=".CheckBoxActivity" />
+        <activity android:name=".RadioButtonActivity" />
+        <activity android:name=".EditTextActivity" />
+        <activity android:name=".ButtonActivity" />
+        <activity android:name=".TextViewActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

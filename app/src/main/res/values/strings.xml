@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Hello,autumn_leaf!</string>
+    <string name="text_view">TextView</string>
+    <string name="button">Button</string>
+    <string name="tv_test1">autumn_leaf</string>
+    <string name="tv_test2">落叶知秋落叶知秋落叶知秋落叶知秋落叶知秋</string>
+    <string name="edit_text">EditText</string>
+    <string name="radio_button">RadioButton</string>
+    <string name="check_box">CheckBox</string>
+    <string name="image_view">ImageView</string>
+    <string name="list_view">ListView</string>
+    <string name="grid_view">GridView</string>
+    <string name="recycler_view">RecyclerView</string>
+    <string name="web_view">WebView</string>
+    <string name="toast">Toast</string>
+    <string name="dialog">Dialog</string>
+    <string name="progress">Progress</string>
+    <string name="custom_dialog">CustomDialog</string>
+    <string name="popup_window">PopUpWindow</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="按钮1"
+        android:textColor="#0066FF"
+        android:textSize="20sp" />
+
+    <!-- 设置背景色为橙色，并且矩形有圆角 -->
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_1"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_btn2"
+        android:text="按钮2"
+        android:textColor="#0066FF"
+        android:textSize="20sp" />
+
+    <!-- 设置按钮描边为橙色，并且有圆角 -->
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_2"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_btn3"
+        android:text="按钮3"
+        android:textColor="#0066FF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_3"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_btn4"
+        android:text="按钮4"
+        android:onClick="showToast"
+        android:textColor="#0066FF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="文字1"
+        android:textColor="#0011BB"
+        android:textSize="20sp"
+        android:layout_below="@id/btn_4"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        />
+
+</RelativeLayout>

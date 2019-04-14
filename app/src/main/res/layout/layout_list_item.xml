@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:background="#F90"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp">
+        <!-- TextView文本赋值只是为了方便查看页面布局 -->
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="孙尚香"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"/>
+        <TextView
+            android:id="@+id/tv_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="王者荣耀"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="射手女英雄"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</LinearLayout>

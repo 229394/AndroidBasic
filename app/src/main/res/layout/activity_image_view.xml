@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+    <!-- fixXY属性会撑满控件,宽高比会发生变化 -->
+    <ImageView
+        android:id="@+id/iv_1"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="#FF9900"
+        android:src="@drawable/icon_flower"
+        android:scaleType="fitXY"/>
+    <!--fitCenter属性保持宽高比缩放,直至能够完全显示 -->
+    <ImageView
+        android:id="@+id/iv_2"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="#FF9900"
+        android:src="@drawable/icon_flower"
+        android:scaleType="fitCenter"
+        android:layout_below="@id/iv_1"
+        android:layout_marginTop="20dp"/>
+    <!-- centerCrop属性保持宽高比缩放,直至完全覆盖控件,裁剪显示 -->
+   <ImageView
+       android:id="@+id/iv_3"
+       android:layout_width="200dp"
+       android:layout_height="100dp"
+       android:background="#FF9900"
+       android:src="@drawable/icon_flower"
+       android:scaleType="centerCrop"
+       android:layout_below="@id/iv_2"
+       android:layout_marginTop="20dp"/>
+    <!-- 加载网络图片 -->
+    <ImageView
+        android:id="@+id/iv_4"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="#FF9900"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/iv_3"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>
