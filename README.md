@@ -6,5 +6,28 @@ If you don't understand some of the codes inside, you can check out my blog colu
   Main && EditText Interface:
   
   ![image](https://github.com/229394/AndroidBasic/blob/master/screenshots/Main.png)
-      ![image](https://github.com/229394/AndroidBasic/blob/master/screenshots/EditText.png)
+  ![image](https://github.com/229394/AndroidBasic/blob/master/screenshots/EditText.png)
   
+  ListView && GridView Interface:
+  
+  ![image](https://github.com/229394/AndroidBasic/blob/master/screenshots/ListView.jpg)
+  ![image](https://github.com/229394/AndroidBasic/blob/master/screenshots/GridView.jpg)
+  
+  RecyclerView Interface:
+  
+  ![image](https://github.com/229394/AndroidBasic/blob/master/screenshots/RecyclerView1.jpg)
+  ![image](https://github.com/229394/AndroidBasic/blob/master/screenshots/RecyclerView2.jpg)
+  
+  Dialog Interface:
+  
+  ![image](https://github.com/229394/AndroidBasic/blob/master/screenshots/Dialog1.png)
+  ![image](https://github.com/229394/AndroidBasic/blob/master/screenshots/Dialog1.png)
+  
+  Toast && Progress Interface:
+  
+  ![image](https://github.com/229394/AndroidBasic/blob/master/screenshots/Toast.png)
+  ![image](https://github.com/229394/AndroidBasic/blob/master/screenshots/Progress.png)
+  
+  CustomDialog Interface:
+  
+  ![image](https://github.com/229394/AndroidBasic/blob/master/screenshots/CustomDialog.png)
