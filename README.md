@@ -6,5 +6,5 @@ If you don't understand some of the codes inside, you can check out my blog colu
   Main && EditText Interface:
   
   ![image](https://github.com/229394/AndroidBasic/blob/master/screenshots/Main.png)
-  ![image](https://github.com/229394/AndroidBasic/blob/master/screenshots/EditText.png)
+      ![image](https://github.com/229394/AndroidBasic/blob/master/screenshots/EditText.png)
   
