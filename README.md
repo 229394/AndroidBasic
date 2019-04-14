@@ -7,3 +7,7 @@ If you don't understand some of the codes inside, you can check out my blog colu
   
   ![image](https://github.com/229394/AndroidBasic/blob/master/screenshots/Main.png)
   
+  EditText Interface:
+  
+  ![image](https://github.com/229394/AndroidBasic/blob/master/screenshots/EditText.png)
+  
